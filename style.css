@@ -42,7 +42,14 @@ ul {
 a {
     /* remove underline from links */
     text-decoration: none;
+    /* add props for font size and color */
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+a:hover {
     /* add hover underline to links */
+    text-decoration: underline;
 }
 
 
