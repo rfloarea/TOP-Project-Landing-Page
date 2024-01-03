@@ -58,7 +58,6 @@ a:hover {
     display: flex;
     /* left align flex items */
     justify-content: start;
-
     flex: auto;
 }
 
@@ -66,6 +65,7 @@ a:hover {
     /* style text and background */
     background-color: #1f2937;
     color: #f9faf8;
+    /* ---> add specific styles to hero title */
 }
 
 button {
@@ -86,20 +86,41 @@ button {
     /* make the image smaller */
     width: 350px;
     height: auto;
-    /* make the image responsive? Basically, allow it to grow along X and Y*/
+    /* ---> make the image responsive? Basically, allow it to grow along X and Y*/
 }
 
 .info-title {
+    /* center align title */
     text-align: center;
+    /* add style :P */
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    /* space things out a bit more */
+    padding: 24px;
 }
 
 .info-card-container {
-    /* center align header and cards */
+    /* create a row of images and subtext */
     display: flex;
     justify-content: center;
-    /* create a row of images and subtext */
-    /* resize the images */
     /* allow wrapping */
+    flex-wrap: wrap;
+    /* spread out each flex item */
+    gap: 12px;
+}
+
+.info-card {
+    /* give each card a size */
+    width: 200px;
+    height: auto;
+}
+
+.info-card-image {
+    /* resize the images */
+    width: 200px;
+    height: auto;
+    /* ---> add a border with rounded corners */
 }
 
 
