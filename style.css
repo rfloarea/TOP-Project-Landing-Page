@@ -123,12 +123,34 @@ button {
     /* ---> add a border with rounded corners */
 }
 
+.quote {
+    /* center text container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    /* size the container for the text */
+    width: 400px;
+    height: auto;
+}
+
+.quote-text {
+    /*left align text*/
+    text-align: left;
+}
+
+.quote-credit {
+    /* right align quote */
+    text-align: right;
+}
 
 /* --- FOR DISPLAY PURPOSES --- */
 
 
-.info-section,
 .quote,
+.quote-content,
 .CTA,
 .footer,
 body {
