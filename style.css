@@ -89,6 +89,19 @@ button {
     /* make the image responsive? Basically, allow it to grow along X and Y*/
 }
 
+.info-title {
+    text-align: center;
+}
+
+.info-card-container {
+    /* center align header and cards */
+    display: flex;
+    justify-content: center;
+    /* create a row of images and subtext */
+    /* resize the images */
+    /* allow wrapping */
+}
+
 
 /* --- FOR DISPLAY PURPOSES --- */
 
