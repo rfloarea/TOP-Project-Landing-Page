@@ -5,9 +5,10 @@ body {
     flex-direction: column;
     /* stretch/flex each section to the width of the page */
     align-items: stretch;
-    /* remove margins */
     /* Add Roboto font */
     font-family: 'Roboto', sans-serif;
+    /* remove margins */
+    margin: 0;
 }
 
 .header {
@@ -55,6 +56,10 @@ a:hover {
 .hero {
     /* horizontally align flex items */
     display: flex;
+    /* left align flex items */
+    justify-content: start;
+
+    flex: auto;
 }
 
 .hero-content {
@@ -78,21 +83,21 @@ button {
 }
 
 .hero-image {
-    
+    /* make the image smaller */
+    width: 350px;
+    height: auto;
+    /* make the image responsive? Basically, allow it to grow along X and Y*/
 }
 
 
 /* --- FOR DISPLAY PURPOSES --- */
-.header,
-.hero,
+
+
 .info-section,
 .quote,
 .CTA,
 .footer,
-body,
-.hero-content,
-button,
-.hero-image {
+body {
     border: 2px solid red;
 }
 
