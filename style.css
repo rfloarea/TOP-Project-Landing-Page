@@ -5,7 +5,22 @@ body {
     align-items: center;
 }
 
+.header {
+    display: flex;
+}
 
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    /* I will want to incorporate a hover underline action */
+}
 
 
 /* --- JUST FOR DISPLAY PURPOSES --- */
@@ -16,4 +31,14 @@ body {
 .CTA,
 .footer {
     border: 2px solid red;
+    max-width: 900px;
 }
+
+/* --- NOTES --- */
+/* 
+1. How do I resize images?
+2. How do I align every content section to the same width?
+    a. Is that a `body` property?
+    b. I think I need to set some `max-width` for all the content
+
+*/
