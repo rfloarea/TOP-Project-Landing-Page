@@ -1,0 +1,6 @@
+body {
+    /* these three props center the page content nicely */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
