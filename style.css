@@ -8,7 +8,6 @@ body {
     /* remove margins */
     /* Add Roboto font */
     font-family: 'Roboto', sans-serif;
-
 }
 
 .header {
@@ -53,6 +52,35 @@ a:hover {
     text-decoration: underline;
 }
 
+.hero {
+    /* horizontally align flex items */
+    display: flex;
+}
+
+.hero-content {
+    /* style text and background */
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.hero-image {
+    
+}
+
 
 /* --- FOR DISPLAY PURPOSES --- */
 .header,
@@ -61,7 +89,10 @@ a:hover {
 .quote,
 .CTA,
 .footer,
-body {
+body,
+.hero-content,
+button,
+.hero-image {
     border: 2px solid red;
 }
 
