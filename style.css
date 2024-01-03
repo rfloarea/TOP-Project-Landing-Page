@@ -107,7 +107,7 @@ button {
     /* allow wrapping */
     flex-wrap: wrap;
     /* spread out each flex item */
-    gap: 12px;
+    gap: 18px;
 }
 
 .info-card {
@@ -120,7 +120,9 @@ button {
     /* resize the images */
     width: 200px;
     height: auto;
-    /* ---> add a border with rounded corners */
+    /* add a border, color it, and round the corners */
+    border: 2px solid #3882f6;
+    border-radius: 8px;
 }
 
 .quote {
@@ -128,29 +130,36 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* add section background color */
+    background-color: #e5e7eb;
 }
 
 .quote-content {
     /* size the container for the text */
     width: 400px;
     height: auto;
+    padding: 12px;
 }
 
 .quote-text {
     /*left align text*/
     text-align: left;
+    /* style the text */
+    font-size: 24px;
+    font-style: italic;
+    padding: 8px;
 }
 
 .quote-credit {
     /* right align quote */
     text-align: right;
+    /* style the text */
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* --- FOR DISPLAY PURPOSES --- */
 
-
-.quote,
-.quote-content,
 .CTA,
 .footer,
 body {
