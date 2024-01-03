@@ -5,15 +5,27 @@ body {
     flex-direction: column;
     /* stretch/flex each section to the width of the page */
     align-items: stretch;
+    /* remove margins */
+    /* Add Roboto font */
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .header {
-    /* horizontally align flex items */
+    /* horizontally and vertically align flex items */
     display: flex;
     align-items: center;
-    /* left align header logo */
-    /* right align links */
+    /* left align header logo and right align links */
+    justify-content: space-between;
+    /* add proper background color */
+    background-color: #1f2937;
+    /* add header link text props */
+}
+
+.header-logo {
+    /* add header logo text props */
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
