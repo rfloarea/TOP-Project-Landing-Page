@@ -1,37 +1,48 @@
 body {
-    /* these three props center the page content nicely */
+    /* flex content sections */
     display: flex;
+    /* change main axis to vertical */
     flex-direction: column;
-    align-items: center;
+    /* stretch/flex each section to the width of the page */
+    align-items: stretch;
+
 }
 
 .header {
+    /* horizontally align flex items */
     display: flex;
+    align-items: center;
+    /* left align header logo */
+    /* right align links */
 }
 
 ul {
+    /* remove default list styling */
     list-style: none;
+    /* horizontally align list items */
     display: flex;
+    /* space list items appealingly */
     padding: 0;
     margin: 0;
     gap: 24px;
 }
 
 a {
+    /* remove underline from links */
     text-decoration: none;
-    /* I will want to incorporate a hover underline action */
+    /* add hover underline to links */
 }
 
 
-/* --- JUST FOR DISPLAY PURPOSES --- */
+/* --- FOR DISPLAY PURPOSES --- */
 .header,
 .hero,
 .info-section,
 .quote,
 .CTA,
-.footer {
+.footer,
+body {
     border: 2px solid red;
-    max-width: 900px;
 }
 
 /* --- NOTES --- */
@@ -40,5 +51,8 @@ a {
 2. How do I align every content section to the same width?
     a. Is that a `body` property?
     b. I think I need to set some `max-width` for all the content
+    c. !! Each content section needs to flex to fit the width of the screen. !!
+        - So that we can apply the proper `background-color`.
+        - They also need to left and right align their content with each other. Mostly.
 
 */
