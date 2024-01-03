@@ -4,3 +4,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+/* --- JUST FOR DISPLAY PURPOSES --- */
+.header,
+.hero,
+.info-section,
+.quote,
+.CTA,
+.footer {
+    border: 2px solid red;
+}
