@@ -68,6 +68,7 @@ a:hover {
     color: #f9faf8;
     /* ---> add specific styles to hero title */
     padding: 12px;
+    flex: auto;
 }
 
 button {
