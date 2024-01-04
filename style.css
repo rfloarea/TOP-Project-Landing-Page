@@ -20,6 +20,7 @@ body {
     /* add proper background color */
     background-color: #1f2937;
     /* add header link text props */
+    padding: 12px;
 }
 
 .header-logo {
@@ -66,6 +67,7 @@ a:hover {
     background-color: #1f2937;
     color: #f9faf8;
     /* ---> add specific styles to hero title */
+    padding: 12px;
 }
 
 button {
