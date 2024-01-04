@@ -86,7 +86,8 @@ button {
     /* make the image smaller */
     width: 350px;
     height: auto;
-    /* ---> make the image responsive? Basically, allow it to grow along X and Y*/
+    padding: 32px;
+    background-color: #1f2937;
 }
 
 .info-title {
@@ -223,22 +224,3 @@ button {
 .footer-text {
     color: #f9faf8;
 }
-
-/* --- FOR DISPLAY PURPOSES --- */
-
-.footer,
-body {
-    border: 2px solid red;
-}
-
-/* --- NOTES --- */
-/* 
-1. How do I resize images?
-2. How do I align every content section to the same width?
-    a. Is that a `body` property?
-    b. I think I need to set some `max-width` for all the content
-    c. !! Each content section needs to flex to fit the width of the screen. !!
-        - So that we can apply the proper `background-color`.
-        - They also need to left and right align their content with each other. Mostly.
-
-*/
