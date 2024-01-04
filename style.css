@@ -158,9 +158,64 @@ button {
     font-weight: bold;
 }
 
+.cta {
+    /* center justify and align the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner {
+    /* line up items horizontally */
+    display: flex;
+    /* center align the banner */
+    justify-content: center;
+    /* vertically center items */
+    align-items: center;
+    /* size the banner */
+    width: 600px;
+    margin: 24px 48px;
+    /* color the banner background */
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 18px 24px;
+}
+
+.cta-content {
+    margin-right: auto;
+    padding-left: 24px;
+}
+
+.cta-title,
+.cta-body {
+    color: #f9faf8;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-body {
+    font-size: 14px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 24px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
 /* --- FOR DISPLAY PURPOSES --- */
 
-.CTA,
 .footer,
 body {
     border: 2px solid red;
