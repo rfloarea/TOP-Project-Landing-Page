@@ -214,6 +214,16 @@ button {
     border-radius: 12px;
 }
 
+.footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    color: #f9faf8;
+}
+
 /* --- FOR DISPLAY PURPOSES --- */
 
 .footer,
